@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>How Many Earths?</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Exo+2:100,200,400,500|Kanit:100,200,400,500|Montserrat:100,200,400,500|Work+Sans:100,200,400,500" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- HERE IS THE QUIZ WORLD -->
+<main class="container">
+  <div class="logo-container">
+    <p>This is a Quiz</p>
+    <!-- Tania -->
+    <button class="button">Click to start!</button>
+    <img src="images/earth.svg" alt="how many earths quiz logo" class="main-logo">
+  </div>
+</main>
+
+
+<!--JQUERY-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+//added by Tania
+$(document).ready(function(){
+    $("button").click(function(){
+        $("container").hide(1000);
+    });
+});
+</script>
+
+
+<!--JAVASCRIPT LOCAL FILE -->
+<script type="text/javascript" src="quiz.js"></script>
+</body>
+</html>

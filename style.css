@@ -1,0 +1,34 @@
+*, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    background-color: #020d20;
+    background-image: linear-gradient(0deg, #020d20 0%, #2c4a7c 50%, #020d20 100%);
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+
+img.main-logo {
+    position: absolute;
+    left: 27%;
+    top: 10%;
+}
+
+/* input by Tania */
+.button {
+    background-color: #32127A;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
