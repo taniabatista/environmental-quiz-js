@@ -1,0 +1,69 @@
+*body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden
+}
+
+/* background container */
+.container {
+    background-color: #020d20;
+    background-image: linear-gradient(0deg, #020d20 0%, #2c4a7c 50%, #020d20 100%);
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+
+/* Landing page with logo */
+img.earth-img {
+    margin: 10% 0 0 30%;
+    height: 80%;
+    width: 80%;
+}
+img.logo {
+    position: absolute;
+    top: 20%;
+    left: 22%;
+}
+
+.button {
+    background-color: white;
+    border: 1px dotted white;
+    border-radius: 5px;
+    color: #020D20;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    top: 65%;
+    left: 45%;
+}
+
+/* Questions page with earth
+img.question-image {
+
+*/
+
+img.top-half {
+    height: 50vh;
+    position: absolute;
+    left: 27%;
+    top: 10%;
+}
+
+/* Questions page bottom half */
+.left-bar {
+  float: left;
+  height: 400px;
+  width: 300px;
+}
+
+
+.listed-question
+
+
+.list-of-answers

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="943px" height="403px" viewBox="0 0 943 403" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>HOW MANY EARTHS?</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <text id="text-1" font-family="LuckiestGuy-Regular, Luckiest Guy" font-size="170" font-weight="normal" letter-spacing="1.40249991">
+            <tspan x="75.5794535" y="504">HOW MANY     </tspan>
+            <tspan x="172.154727" y="708">EARTHS?</tspan>
+        </text>
+        <filter x="-2.7%" y="-6.2%" width="105.4%" height="113.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.932914402 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Logo" transform="translate(-50.000000, -342.000000)">
+            <g id="HOW-MANY-EARTHS?">
+                <use stroke="#FFFFFF" fill="#4CC1FC" fill-opacity="1" stroke-width="8" stroke-opacity="1" filter="url(#filter-2)" xlink:href="#text-1"></use>
+                <use fill="#4CC1FC" fill-rule="evenodd" xlink:href="#text-1"></use>
+                <use stroke="#FFFFFF" stroke-width="8" xlink:href="#text-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

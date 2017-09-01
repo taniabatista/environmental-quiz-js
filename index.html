@@ -9,33 +9,45 @@
   <link href="https://fonts.googleapis.com/css?family=Exo+2:100,200,400,500|Kanit:100,200,400,500|Montserrat:100,200,400,500|Work+Sans:100,200,400,500" rel="stylesheet">
   <!-- CSS -->
   <link rel="stylesheet" href="style.css">
+  <!--JQUERY-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!--JAVASCRIPT LOCAL FILE -->
+  <script type="text/javascript" src="quiz.js"></script>
+  <script type="text/javascript" src="game.js"></script>
+
 </head>
 
 <body>
 <!-- HERE IS THE QUIZ WORLD -->
 <main class="container">
-  <div class="logo-container">
-    <p>This is a Quiz</p>
-    <!-- Tania -->
+
+<!-- landing page  -->
+<div class="logo-container">
+    <img class="logo" src="images/blue-logo.svg" alt="how many earths font logo" >
+    <img class="earth-img" src="images/earth.svg" alt="earth drawing" >
     <button class="button">Click to start!</button>
-    <img src="images/earth.svg" alt="how many earths quiz logo" class="main-logo">
-  </div>
+</div>
+
+
+<!-- top half container with earth  -->
+<div class="top-half">
+    <img class="earth-above" src="images/earth.svg" alt="earth changing">
+</div>
+
+<!-- questions and answers  -->
+<div class="quiz-container">
+  <div class="listed-question"> <h1> Question </h1></div>
+  <div class="answers"> <p>FirstAnswer</p><a href="#"><span></span></a></div>
+  <div class="answers"><p>SecondAnswer</p></div>
+  <div class="answers"><p>ThirdAnswer</p></div>
+  <div class="answers"><p>FourthAnswer</p></div>
+</div>
+
+
+
+<!--end of MAIN-->
 </main>
 
 
-<!--JQUERY-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script>
-//added by Tania
-$(document).ready(function(){
-    $("button").click(function(){
-        $("container").hide(1000);
-    });
-});
-</script>
-
-
-<!--JAVASCRIPT LOCAL FILE -->
-<script type="text/javascript" src="quiz.js"></script>
 </body>
 </html>
