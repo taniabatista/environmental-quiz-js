@@ -1,3 +1,5 @@
+$(document).ready(function() {
+
 function QuizGame() {
 
   this.questions = [
@@ -120,3 +122,71 @@ function QuizGame() {
       },
 
 ]; }
+
+QuizGame.prototype.getQuestions = function (index) {
+  document.getElementById("js-question").innerHTML = this.questions[index].question;
+  document.getElementById("js-answers1").innerHTML = this.questions[index].answers[0];
+  document.getElementById("js-answers2").innerHTML = this.questions[index].answers[1];
+  document.getElementById("js-answers3").innerHTML = this.questions[index].answers[2];
+  document.getElementById("js-answers4").innerHTML = this.questions[index].answers[3];
+};
+
+var quiz = new QuizGame();
+var questionIndex = 0;
+
+quiz.getQuestions(questionIndex);
+
+$(".answers").on("click", function(){
+  console.log(questionIndex);
+  questionIndex++;
+  quiz.getQuestion(questionIndex);
+});
+
+});
+
+
+//function QuizGame() {
+//  this.questions = [
+
+
+// /* function QuizGame() {
+//   this.questions = [..questions and answers ] */
+//
+// var myQuestions = quiz pretty much
+//
+//
+// SHOW THE QUESTIONS
+// /*find a way to actually show questions*/
+// function getQuestions (questions1, quizcontainer2){
+//   //var array to store the output:
+//   var output = [];
+//   //var to store answer choices... into array below
+//   var answers;
+//
+// 	/* add a loop so the subsequent steps will happen for each question:*/
+//   for(var i=0; i<questions1.length; i++){
+//     //first deal with answers: reset list of answers
+//      answers = [];
+//     //then add HTML radio button to each
+// 		for(letter in questions1[i].answers){
+// 			answers.push(
+// 				'<label>'
+// 					+ '<input type="radio" name="question'+i+'" value="'+letter+'">'
+// 					+ letter + ': '
+// 					+ questions1[i].answers[letter]
+// 				+ '</label>'
+// 			);
+//   }
+// //add this question and its answers to the output:
+// 		output.push(
+// 			'<div class="question">' + questions1[i].question + '</div>'
+// 			+ '<div class="answers">' + answers.join('') + '</div>'
+// 		);
+// 	}
+//
+// //last: the "output list" has to be 1 string of HTML. Put it on the page.
+//   	quizcontainer2.innerHTML = output.join('');
+// }
+//
+// //run the function:
+// getQuestions(questions1, quizcontainer2);
