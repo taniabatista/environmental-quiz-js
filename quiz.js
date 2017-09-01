@@ -139,7 +139,7 @@ quiz.getQuestions(questionIndex);
 $(".answers").on("click", function(){
   console.log(questionIndex);
   questionIndex++;
-  quiz.getQuestion(questionIndex);
+  quiz.getQuestions(questionIndex);
 });
 
 });
